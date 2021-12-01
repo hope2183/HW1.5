@@ -92,6 +92,17 @@ public class Main {
                 System.out.print(numbers[i]);
             }
         }
+        System.out.println();
+        //ИЛИ
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 != 0) {
+                numbers[i] += 1;
+            } if (i != numbers.length - 1) {
+                System.out.print(numbers[i] + ", ");
+            } else {
+                System.out.print(numbers[i]);
+            }
+        }
     }
 
     }
